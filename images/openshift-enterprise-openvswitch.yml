@@ -1,7 +1,6 @@
 content:
   source:
     alias: ose
-    dockerfile: Dockerfile.product
     path: images/openvswitch
     modifications:
     - action: replace
