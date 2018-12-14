@@ -2,10 +2,6 @@ content:
   source:
     alias: ose
     path: images/openvswitch
-    modifications:
-    - action: replace
-      match: "rpm -V $INSTALL_PKGS && "
-      replacement:
 from:
   member: openshift-enterprise-base
 labels:
